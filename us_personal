@@ -760,12 +760,12 @@ xkb_symbols "colemak" {
 
     key <AD01> { [            q,            Q,              ae,               Ae ] };
     key <AD02> { [            w,            W,             aring,          Aring ] };
-    key <AD03> { [            f,            F,           oslash,          Oslash ] };
+    key <AD03> { [            f,            F,           comma,          Oslash ] };
     key <AD04> { [            p,            P,          oslash,         Ooblique ] };
     key <AD05> { [            g,            G,     dead_ogonek,       asciitilde ] };
     key <AD06> { [            j,            J,         dstroke,          Dstroke ] };
     key <AD07> { [            l,            L,         lstroke,          Lstroke ] };
-    key <AD08> { [            u,            U,          uacute,           Uacute ] };
+    key <AD08> { [            u,            U,          period,           Uacute ] };
     key <AD09> { [            y,            Y,      udiaeresis,       Udiaeresis ] };
     key <AD10> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
     key <AD11> { [  bracketleft,    braceleft,   guillemotleft,        0x1002039 ] };
