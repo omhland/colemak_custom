@@ -770,7 +770,7 @@ xkb_symbols "colemak" {
     key <AD10> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
     key <AD11> { [  less,    braceleft,   guillemotleft,        0x1002039 ] };
     key <AD12> { [ greater,   braceright,  guillemotright,        0x100203a ] };
-    key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
+    key <BKSL> { [    apostrophe,          quotebl,      asciitilde,       asciitilde ] };
 
     key <AC01> { [            a,            A,               1,           Aacute ] };
     key <AC02> { [            r,            R,               2,       asciitilde ] };
@@ -782,7 +782,7 @@ xkb_symbols "colemak" {
     key <AC08> { [            e,            E,               8,           Eacute ] };
     key <AC09> { [            i,            I,               9,           Iacute ] };
     key <AC10> { [            o,            O,               0,           Oacute ] };
-    key <AC11> { [        apostrophe,     quotebl,        equal,           Otilde ] };
+    key <AC11> { [        Ctrl,    Ctrl,        Ctrl,           Ctrl ] };
 
     key <AB01> { [        z,            Z,     ae,               Ae ] };
     key <AB02> { [            x,            X,      asciitilde,       asciitilde ] };
@@ -793,13 +793,14 @@ xkb_symbols "colemak" {
     key <AB07> { [            m,            M,     dead_macron,       asciitilde ] };
     key <AB08> { [       parenleft,     bracketleft,    braceleft,       asciitilde ] };
     key <AB09> { [       parenright,      bracketright,   braceright,       asciitilde ] };
-    key <AB10> { [        slash,     backslash,    backslash,       asciitilde ] };
+    key <AB10> { [        slash,     backslash,    bar,       asciitilde ] };
 
     key <CAPS> { [    BackSpace, Delete,      Insert,        BackSpace ] };
     key <LSGT> { [        minus,   underscore,            plus,           emdash ] };
-    key <SPCE> { [        space,        Insert,              Escape,     question ] };
+    key <SPCE> { [        space,        Insert,              Escape,     escape ] };
 
     include "level3(ralt_switch)"
+    include "ctrl(swap_ap_ctrl)"
 };
 
 // I do NOT like dead-keys - the International keyboard as defined by Microsoft
