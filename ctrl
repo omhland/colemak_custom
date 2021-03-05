@@ -125,7 +125,12 @@ xkb_symbols "swap_lalt_lctl_lwin" {
 
 partial modifier_keys
 xkb_symbols "swap_ap_ctrl" {
-    replace key <AC11> { [ Control_R ] };
-    modifier_map Control    { <AC11> };
+    replace key <BKSL> { [ Control_R ] };
+    replace key <LALT> { [ Shift_L ] };
+    replace key <LFSH>  { [ Alt_L, Meta_L ] };
+    modifier_map Control    {  <BKSL> };
+    modifier_map Shift { <LALT> };
+    modifier_map Mod1 { <LFSH> };
 };
+
 
