@@ -759,23 +759,23 @@ xkb_symbols "colemak" {
     key <AE12> { [            z,            Z,        multiply,         division ] };
 
     key <AD01> { [            q,            Q,              asterisk,               Aring ] };
-    key <AD02> { [            w,            W,             minus,          Oslash ] };
-    key <AD03> { [            f,            F,           equal,          Oslash ] };
+    key <AD02> { [            w,            W,             minus,          endash ] };
+    key <AD03> { [            f,            F,           equal,          emdash ] };
     key <AD04> { [            p,            P,          plus,         Ooblique ] };
     key <AD05> { [            g,            G,     asciicircum,       asciitilde ] };
     key <AD06> { [            j,            J,     ampersand,          Dstroke ] };
     key <AD07> { [            l,            L,         comma,          Lstroke ] };
     key <AD08> { [            u,            U,          period,           Uacute ] };
     key <AD09> { [            y,            Y,      exclam,       Udiaeresis ] };
-    key <AD10> { [    semicolon,        colon,      colon,       Odiaeresis ] };
-    key <AD11> { [  less,    question,   question,        0x1002039 ] };
+    key <AD10> { [    semicolon,        dollar,      colon,       Odiaeresis ] };
+    key <AD11> { [  percent,    numbersign,   at,        0x1002039 ] };
     key <AD12> { [ greater,   braceright,  guillemotright,        0x100203a ] };
     key <BKSL> { [    Ctrl,          quotedbl,      asciitilde,       asciitilde ] };
 
     key <AC01> { [            a,            A,               1,          at  ] };
     key <AC02> { [            r,            R,               2,       greater ] };
-    key <AC03> { [            s,            S,               3,        dollar ] };
-    key <AC04> { [            t,            T,               4, percent ] };
+    key <AC03> { [            s,            S,               3,        3 ] };
+    key <AC04> { [            t,            T,               4, 4 ] };
     key <AC05> { [            d,            D,               5,       asciitilde ] };
     key <AC06> { [            h,            H,               6,       asciitilde ] };
     key <AC07> { [            n,            N,               7,           parenleft ] };
