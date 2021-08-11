@@ -1,0 +1,17 @@
+*Thumb pad
+[delete]>[lshift]
+[enter]>[ralt]
+[bspace]>[lalt]
+
+
+
+
+[end]>[tab]
+
+
+[pdown]>[enter]
+
+
+
+
+
