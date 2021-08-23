@@ -3,15 +3,14 @@
 [enter]>[ralt]
 [bspace]>[lalt]
 
+[lshift]>[delete]
 
 
+[end]>[escape]
 
-[end]>[tab]
 
-
+*[space]>[enter]
 [pdown]>[enter]
-
-
 
 
 
