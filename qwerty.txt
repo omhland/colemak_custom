@@ -1,16 +1,45 @@
+**OLD
+*Thumb pad
+*[delete]>[ralt]
+*[bspace]>[escape]
+*[space]>[enter]
+*[enter]>[space]
+*
+*[end]>[lalt]
+*[pdown]>[lshift]
+*
+*{ralt}{down}>{pdown}
+*{ralt}{up}>{pup}
+*{ralt}{left}>{home}
+*{ralt}{right}>{end}
+
+*[some key positon] > [will do this when clicked]
+
 *Thumb pad
 [delete]>[lshift]
+
+[bspace]>[space]
+[space]>[enter]
 [enter]>[ralt]
-[bspace]>[lalt]
-
-[lshift]>[delete]
 
 
-[end]>[escape]
+[caps]>[bspace]
+
+[home]>[tab]
+[end]>[caps]
+[pdown]>[lalt]
+[pup]>[escape]
+
+{ralt}{down}>{pdown}
+{ralt}{up}>{pup}
+{ralt}{left}>{home}
+{ralt}{right}>{end}
+
+{ralt}{space}>{ralt}{lshift}
 
 
-*[space]>[enter]
-[pdown]>[enter]
-
+[up]>[left]
+[obrack]>[up]
+[cbrack]>[right]
 
 
