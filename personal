@@ -30,9 +30,9 @@ xkb_symbols "colemak_custom" {
     key <AD04> { [            p,            P,          percent,         quotedbl ] };
     key <AD05> { [            g,            G,    	asciicircum,       g ] };
     key <AD06> { [            j,            J,     ampersand,          j ] };
-    key <AD07> { [            l,            L,         asterisk,          l ] };
-    key <AD08> { [            u,            U,          semicolon,           u ] };
-    key <AD09> { [            y,            Y,      exclam,       Udiaeresis ] };
+    key <AD07> { [            l,            L,         asterisk,          l, Home ] };
+    key <AD08> { [            u,            U,          semicolon,           u, End ] };
+    key <AD09> { [            y,            Y,      exclam,       Udiaeresis] };
     key <AD10> { [         grave, endash,  emdash, Odiaeresis ] };
     key <AD11> { [ 	     ae,           Ae,          Ae,        Ae ] };
     key <AD12> { [      	 a,  a,  a,        0x100203a ] };
@@ -129,8 +129,8 @@ xkb_symbols "kinesis" {
     key <AD04> { [            p,            P,          percent,         quotedbl ] };
     key <AD05> { [            g,            G,    	asciicircum,       g ] };
     key <AD06> { [            j,            J,     ampersand,          j ] };
-    key <AD07> { [            l,            L,         asterisk,          l ] };
-    key <AD08> { [            u,            U,          semicolon,           u ] };
+    key <AD07> { [            l,            L,         asterisk,          l, Home ] };
+    key <AD08> { [            u,            U,          semicolon,           u, End  ] };
     key <AD09> { [            y,            Y,      exclam,       Udiaeresis ] };
     key <AD10> { [         grave, endash,  emdash, Odiaeresis ] };
     key <AD11> { [ 	     ae,           Ae,          Ae,        Ae ] };
@@ -141,7 +141,7 @@ xkb_symbols "kinesis" {
     key <AC02> { [            r,            R,             colon,  2, Escape ] };     //  numbersign ] };
     key <AC03> { [            s,            S,             plus,  3, Tab] };     //  dollar ] };
     key <AC04> { [            t,            T,             minus,  4, End] };      //  percent ] };
-    key <AC05> { [            d,            D,             bar,  5 ] }; //     e ] };
+    key <AC05> { [            d,            D,             bar,  5, THORN ] }; //  NEW
     key <AC06> { [            h,            H,             asciitilde,  6 ] };     // f ] };
 
 
@@ -155,10 +155,10 @@ xkb_symbols "kinesis" {
     key <AB01>{ [        z,  Z,            aring,           Aring ] };
     key <AB02> { [        x,            X,      oslash,       Oslash ] };
     key <AB03> { [        c,            C,      ae,         Ae ] };
-    key <AB04> { [        v,            V,      underscore,               v ] };
+    key <AB04> { [        v,            V,      underscore, v,           ETH ] }; //NEW
     key <AB05> { [        b,            B,      bar,       asciitilde ] };
     key <AB06> { [            k,            K, 	    EuroSign, cent] };
-    key <AB07> { [            m,            M,     equal,       m ] };
+    key <AB07> { [            m,            M,     equal,       m,  eth] };
     key <AB08> { [       parenleft,     bracketleft,    braceleft,       less ] };
     key <AB09> { [       parenright,      bracketright,   braceright,       greater ] };
     key <AB10> { [        slash,     question,    backslash,       asciitilde ] };
