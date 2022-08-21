@@ -123,7 +123,7 @@ xkb_symbols "swap_lalt_lctl_lwin" {
 };
 
 
-partial modifier_keys
+//partial modifier_keys
 xkb_symbols "swap_ap_ctrl" {
     replace key <BKSL> { [ Control_R ] };
     replace key <LALT> { [ Shift_L ] };
@@ -133,4 +133,9 @@ xkb_symbols "swap_ap_ctrl" {
     modifier_map Mod1 { <LFSH> };
 };
 
+
+// Swap
+xkb_symbols "swap_ap_ctrl" {
+    replace key <CAPS> { [ Control_L ] };
+};
 

@@ -72,6 +72,8 @@ xkb_symbols "colemak_custom" {
 
 	
     include "personal(lwin_switch)"
+    include "personal(swap_ctrl_print)"
+
 
 };
 
@@ -94,6 +96,18 @@ xkb_symbols "modifier_mapping" {
   };
   modifier_map Mod3 { <MDSW> };
 };
+
+
+xkb_symbols "swap_ctrl_print" {
+    replace key <PRSC> { [ Control_L  ] };
+    modifier_map Control    {  <PRSC> };
+};
+
+// xkb_symbols "turn_off_enter" {
+//     replace key <RTRN> { [Control_R] }
+//     modifier_map Control { <RTRN> };
+// };
+
 
 
 ///////////////////////////////////////////

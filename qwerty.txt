@@ -1,21 +1,3 @@
-**OLD
-*Thumb pad
-*[delete]>[ralt]
-*[bspace]>[escape]
-*[space]>[enter]
-*[enter]>[space]
-*
-*[end]>[lalt]
-*[pdown]>[lshift]
-*
-*{ralt}{down}>{pdown}
-*{ralt}{up}>{pup}
-*{ralt}{left}>{home}
-*{ralt}{right}>{end}
-
-*[some key positon] > [will do this when clicked]
-
-*Thumb pad
 [delete]>[lshift]
 
 [bspace]>[space]
@@ -24,11 +6,17 @@
 
 
 [caps]>[bspace]
-
 [home]>[tab]
 [end]>[caps]
 [pdown]>[lalt]
 [pup]>[escape]
+
+[rctrl]>[lalt]
+[pdown]>[rwin]
+
+[rwin]>[rctrl]
+
+
 
 {ralt}{down}>{pdown}
 {ralt}{up}>{pup}
